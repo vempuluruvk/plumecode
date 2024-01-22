@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Client </title>
+    <link rel="icon" href="images/logopc.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+	height: 100%;
+	display: grid;
+	align-items: center;
+	font-family: 'Barlow', sans-serif;
+	background: linear-gradient(to right, #0b0e0e, #bccaca);
+}
+.container{
+	width: 90%;
+	margin-top: 50px;
+	height: auto;
+	text-align: center;
+}
+.container h1{
+	font-size: 60px;
+	color: #000;
+}
+.container hr{
+	width: 20%;
+	height: 5px;
+	border: none;
+	background: #000;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.client{
+	width: 100%;
+	height: auto;
+}
+.client ul{
+	padding: 0;
+	margin: 0;
+}
+.client ul li{
+	list-style: none;
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+	justify-content: space-around;
+}
+.client ul li img{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+}
+
+.client ul li img:nth-child(1){
+	transform: translateY(0);
+	transition: .5s;
+}
+.client ul li img:nth-child(2){
+	transform: translateY(0);
+	transition: .5s;
+}
+.client ul li:hover img:nth-child(1){
+	transform: translateY(-100%);
+	transition: .5s;
+}
+.client ul li:hover img:nth-child(2){
+	transform: translateY(-100%);
+	transition: .5s;
+}
+.credit a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 900;
+  }
+  .credit {
+      margin-top: 50px;
+      text-align: center;
+  }
+
+
+</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Our Clients</h1><hr/>
+		<div class="client">
+		<ul>
+			<li>
+				<img src="images/client 1.jpg" alt="client1">
+				
+			</li>
+			<li>
+				<img src="images/client2.png" alt="client2">
+				>
+			</li>
+			<li>
+				<img src="images/client 3.png" alt="client3">
+				
+			</li>
+			<li>
+				<img src="images/CLIENT 6.jpeg" alt="client4">
+				
+			</li>
+            <li>
+                <img src="images/CLIENT5.png" alt="client2">
+            </li>
+            <li>
+                <img src="images/CLIENT 4.png" alt="client1">
+            </li>
+		</ul>
+	</div>
+
+	</div>
+</body>
+</html>
